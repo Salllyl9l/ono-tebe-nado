@@ -117,6 +117,9 @@
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 165px;
   color: #fff;
   position: relative;
   font-size: 100px;
@@ -136,12 +139,6 @@
   line-height: 28px;
   text-transform: uppercase;
   margin-bottom: auto;
-}
-
-.cover__title {
-  display: flex;
-  flex-direction: column;
-  padding-top: 165px;
 }
 
 .aligned-text {
